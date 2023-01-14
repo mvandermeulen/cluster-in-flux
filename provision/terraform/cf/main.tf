@@ -1,7 +1,7 @@
 terraform {
 
   backend "remote" {
-    organization = "onedr0p"
+    organization = "stakd"
     workspaces {
       name = "home-cloudflare"
     }
